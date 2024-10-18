@@ -1,0 +1,45 @@
+{
+	"validation": {
+		"exclude": {
+			"ui": [
+				"#Control:Comments"
+			],
+			"i18n": [
+				"map_settings_close",
+				"bm_title",
+				"fl_title",
+				"dl_title",
+				"map_nearme_dist_title",
+				"map_nearme_unit_title",
+				"map_nearme_mi",
+				"map_nearme_km",
+				"battery_saving_switch_title",
+				"battery_saving_switch_desctiption"
+			]
+		}
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=SAP.SAM2405_TND&ClientId=72b6d735-d033-43a0-96f2-c928a9560303&ServerUrl=https://btc-8ntfoh24-terranets-sap-sam2405-tnd.cfapps.eu11.hana.ondemand.com&SapCloudPlatformEndpoint=https://btc-8ntfoh24-terranets-sap-sam2405-tnd.cfapps.eu11.hana.ondemand.com&AuthorizationEndpointUrl=https://btc-8ntfoh24-terranets-sap-sam2405-tnd.cfapps.eu11.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://btc-8ntfoh24-terranets-sap-sam2405-tnd.cfapps.eu11.hana.ondemand.com&TokenUrl=https://btc-8ntfoh24-terranets-sap-sam2405-tnd.cfapps.eu11.hana.ondemand.com/oauth2/api/v1/token&multiUser=false"
+	},
+	"CF": {
+		"Target": "https://api.cf.eu11.hana.ondemand.com",
+		"Organization": "f7e4fa8c-35ab-40c0-8bb3-f1291f730e54",
+		"Space": "a727a2c4-f6e9-4d0a-97f2-da42c992d526"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu11.hana.ondemand.com/cockpit/v1/org/f7e4fa8c-35ab-40c0-8bb3-f1291f730e54/space/a727a2c4-f6e9-4d0a-97f2-da42c992d526",
+		"AppId": "SAP.SAM2405_TND",
+		"Destination": [
+			"DEST_SAM2405_PPROP",
+			"DEST_SAM2405_ONLINE_PPROP"
+		]
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true
+	}
+}

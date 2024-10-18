@@ -1,0 +1,15 @@
+{
+    "mdk.uieditor": {
+        "device": "tablet"
+    },
+    "mdk.bundlerExternals": [
+        "@nativescript/geolocation", "extension-LocationService", "extension-GenericWebView", "extension-SAMFoundation", "uuid", "@nstudio/nativescript-dynatrace", "@nativescript/core/accessibility", "xml-js", "stream", "buffer", "emitter"
+    ],
+    "mdk.mobileservice": {
+        "appId": "SAP.SAM2405_TND",
+        "adminAPI": "https://mobile-service-cockpit-web.cfapps.eu11.hana.ondemand.com/cockpit/v1/org/f7e4fa8c-35ab-40c0-8bb3-f1291f730e54/space/a727a2c4-f6e9-4d0a-97f2-da42c992d526"
+    },
+    "mdk.autoBundle": false,
+    "mdk.serviceMetadataExpiredDays": 0,
+    "mdk.validateBeforeBundle": false,
+}

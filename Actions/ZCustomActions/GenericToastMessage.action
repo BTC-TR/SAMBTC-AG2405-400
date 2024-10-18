@@ -1,0 +1,8 @@
+{
+	"_Type": "Action.Type.ToastMessage",
+	"ActionResult": {
+		"_Name": "GenericToastMessage"
+	},
+	"Message": "Message",
+	"Animated": true
+}
